@@ -44,3 +44,5 @@ growth_col<-coral_col+growth_col_offset[growth_roll]
 in_bounds <-growth_row >=1 && growth_row<=5 && growth_col >=1 && growth_col<=5
 
 if(in_bounds=TRUE){reef[growth_row, growth_col]<-1}
+
+#end of live coding session
